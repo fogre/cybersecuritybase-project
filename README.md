@@ -7,10 +7,11 @@ The assigment was "to create a web application that has at least five different 
 You will then write a brief (1000 words) report that outlines how the flaws can be first identified and then fixed. For the identification process, we suggest that you use tools that have been used in the course, such as Owasp ZAP. "
 
 <br>
+The raport of five weird mistakes:
 
 <h2>1. Security Misconfiguration (Flaw no 5)</h2>
 
-In SecurityConfigure HttpSecurity the http.headers are disabled. OWASP Zap gives X-Frame-Options Header Not Set among other header errors.
+In SecurityConfigure HttpSecurity the http.headers are disabled. OWASP Zap gives "X-Frame-Options Header Not Set" among other header errors.
 
 Fixing is easy, just remove the header disabling option as by default it is on. 
 

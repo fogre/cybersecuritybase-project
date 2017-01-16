@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Event</title>
+    </head>
+    <body>
+
+        <h1>Event</h1>
+        <p>Check participated people</p>
+
+        <ul>
+            <li th:each="member : ${signups}">
+                <span th:utext="${member.getName()}"></span>
+            </li>
+        </ul>
+
+
+        <p>Your information:</p> 
+        <p>Name: <span th:text="${name}">name</span></p>
+        <p>Address: <span th:text="${address}">address</span></p>
+        <p></p>
+
+        <div th:if="${admin} == true">
+            <p>YOU ARE LOGGED IN AS ADMIN.</p>
+        </div>
+
+        <p>admin login</p>
+        <form action="#" th:action="@{/event/login}" method="GET">
+            <p><label for="username">Username</label>: <input type="text" name="username" id="username"/></p>
+            <p><label for="password">Password</label>: <input type="text" name="password" id="password"/></p>
+            <p><input type="submit" value="Submit" /></p>
+        </form>
+    </body>
+</html>

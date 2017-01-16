@@ -15,7 +15,6 @@ In SecurityConfigure HttpSecurity the http.headers are disabled. OWASP Zap gives
 
 Fixing is easy, just remove the header disabling option as by default it is on. 
 
-<br>
 <h2>2. Missing Function Level Access Control (Flaw no 7)</h2>
 
 After signing up, the user is redirected to done page, from which he can enter to event page to view the participants. The event page is not authenticated, so you can enter and view the participants just by going to /events page.
@@ -32,7 +31,7 @@ Fixing the rather poor use of httpSessions will fix the problem.
 
 <h2>4. Cross-Site Scripting (Flaw no 3)</h2>
 
-The event page shows all participants of the event. How ever the form allows unescaped text and thus an XSS attack. For example the evil cracker can write "<script>alert("This event sucks!")</script>" to the form, and for the shock of everyone else the event page alerts it for everyone.
+The event page shows all participants of the event. How ever the form allows unescaped text and thus an XSS attack. For example the evil cracker can write "< script>alert("This event sucks!")< /script>" to the form, and ruin everyone else's event. 
 
 This can be fixed by using the Thymeleaf text tag instead of utext.
 

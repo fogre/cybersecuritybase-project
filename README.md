@@ -1,4 +1,4 @@
-<h1>Cyber Security Base -project</h1>
+<h1>Cyber Security Base-project</h1>
 
 This project is part of F-Secure Security Base course. More info of the courses can be found <a href="http://mooc.fi/courses/2016/cybersecurity/">Here</a>
 <br>
@@ -7,7 +7,7 @@ This project is part of F-Secure Security Base course. More info of the courses 
 You will then write a brief (1000 words) report that outlines how the flaws can be first identified and then fixed. For the identification process, we suggest that you use tools that have been used in the course, such as Owasp ZAP. "
 
 <br>
-The raport of five weird mistakes:
+The report of five weird mistakes:
 
 <h2>1. Security Misconfiguration (Flaw no 5)</h2>
 

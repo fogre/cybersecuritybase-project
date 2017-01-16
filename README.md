@@ -1,8 +1,8 @@
 <h1>Cyber Security Base -project</h1>
 
-This project is part of F-Secure Security Base studies. More info of the course can be found <a href="http://mooc.fi/courses/2016/cybersecurity/">Here</a>
+This project is part of F-Secure Security Base course. More info of the courses can be found <a href="http://mooc.fi/courses/2016/cybersecurity/">Here</a>
 <br>
-The assigment was "to create a web application that has at least five different flaws from the OWASP top ten list (https://www.owasp.org/index.php/Top_10_2013-Top_10). Starter code for the project is provided on Github at https://github.com/cybersecuritybase/cybersecuritybase-project.
+<a href="https://cybersecuritybase.github.io/project/">The assigment</a> was "to create a web application that has at least five different flaws from the OWASP top ten list (https://www.owasp.org/index.php/Top_10_2013-Top_10). Starter code for the project is provided on Github at https://github.com/cybersecuritybase/cybersecuritybase-project.
 
 You will then write a brief (1000 words) report that outlines how the flaws can be first identified and then fixed. For the identification process, we suggest that you use tools that have been used in the course, such as Owasp ZAP. "
 
